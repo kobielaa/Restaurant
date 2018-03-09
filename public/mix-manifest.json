@@ -1,0 +1,19 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/admin.css": "/css/admin.css",
+    "/css/bootstrap.min.css": "/css/bootstrap.min.css",
+    "/css/bootstrap.min.css.map": "/css/bootstrap.min.css.map",
+    "/css/font-awesome.min.css": "/css/font-awesome.min.css",
+    "/css/font-awesome.css.map": "/css/font-awesome.css.map",
+    "/css/bootstrap-datepicker.min.css": "/css/bootstrap-datepicker.min.css",
+    "/css/bootstrap-datepicker.css.map": "/css/bootstrap-datepicker.css.map",
+    "/css/lightbox.min.css": "/css/lightbox.min.css",
+    "/css/select2.min.css": "/css/select2.min.css",
+    "/fonts/FontAwesome.otf": "/fonts/FontAwesome.otf",
+    "/fonts/fontawesome-webfont.eot": "/fonts/fontawesome-webfont.eot",
+    "/fonts/fontawesome-webfont.svg": "/fonts/fontawesome-webfont.svg",
+    "/fonts/fontawesome-webfont.ttf": "/fonts/fontawesome-webfont.ttf",
+    "/fonts/fontawesome-webfont.woff": "/fonts/fontawesome-webfont.woff",
+    "/fonts/fontawesome-webfont.woff2": "/fonts/fontawesome-webfont.woff2"
+}

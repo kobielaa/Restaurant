@@ -1,0 +1,28 @@
+.lightbox {
+    .lb-outerContainer {
+        .lb-container {
+            .lb-nav {
+                .lb-prev {
+                    background-image: url(../img/lightbox/prev.png);
+                }
+                .lb-next {
+                    background-image: url(../img/lightbox/next.png);
+                }
+            }
+            .lb-loader {
+                .lb-cancel {
+                    background-image: url(../img/lightbox/loading.gif);
+                }
+            }
+        }
+    }
+    .lb-dataContainer {
+        .lb-data {
+            .lb-closeContainer {
+                .lb-close {
+                    background-image: url(../img/lightbox/close.png);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.admin-panel {
+    @import "pages/registration";
+    @import "pages/advert";
+    .content {
+        .card {
+            .table-responsive {
+                .btn {
+                    display: block;
+                }
+            }
+            &.payments {
+                .codes {
+                    display: none;
+                    &.validated {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.menu {
+    padding: 0;
+    .nav-item {
+        &:before {
+            content: "\00BB \0020";
+        }
+        list-style: none;
+        padding: .5rem 0;
+        display: block;
+        .nav-link {
+            display: inline-block;
+            text-decoration: none;
+            padding: 0;
+            text-transform: none;
+        }
+    }
+}

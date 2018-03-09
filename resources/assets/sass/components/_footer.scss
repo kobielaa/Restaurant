@@ -1,0 +1,22 @@
+footer {
+    background-color: $color-secondary;
+    padding-top: 1rem;
+    label,
+    input,
+    a {
+        display: block;
+    }
+    input[type=checkbox],
+    input[type=checkbox]+label {
+        display: inline-block;
+    }
+    .menu {
+        li {
+            display: inline;
+            text-transform: uppercase;
+            a {
+                display: inline;
+            }
+        }
+    }
+}

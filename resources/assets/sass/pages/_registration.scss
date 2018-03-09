@@ -1,0 +1,42 @@
+.auth-content {
+    form {
+        padding-bottom: 0;
+        .row {
+            margin-top: .938rem;
+            margin-bottom: .938rem;
+            &:first-of-type {
+                margin-top: 0;
+            }
+            &:last-of-type {
+                margin-bottom: 0;
+                div {
+                    // padding: 0;
+                    .btn-primary {
+                        background-color: $color-accent;
+                        width: 15.625rem;
+                        border: none;
+                        border-top-right-radius: 0;
+                        border-bottom-left-radius: 0;
+                    }
+                }
+            }
+            .form-check-label {
+                font-weight: bold;
+            }
+        }
+    }
+    .account-details {
+        display: none;
+        .work-info {
+            display: none;
+            .job {
+                display: none;
+            }
+        }
+    }
+    .account-details {
+        &.validated {
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.sidebar {
+    .menu {
+        h4 {
+            text-transform: uppercase;
+        }
+        .menu {
+            &.filters {
+                .nav-item {
+                    &:before {
+                        content: none;
+                    }
+                }
+            }
+        }
+    }
+}

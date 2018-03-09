@@ -1,0 +1,49 @@
+header {
+    background-image: url("/img/header.jpeg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 32rem;
+    clear: both;
+    nav {
+        background-color: $color-accent2;
+        opacity: .8;
+        .nav-item {
+            .nav-link {
+                text-transform: uppercase;
+                color: $color-secondary;
+                font-weight: bold;
+            }
+        }
+    }
+    .container {
+        height: 100%;
+        .mission {
+            text-align: center;
+            margin: 0 auto;
+            h1 {
+                color: $color-primary;
+            }
+            form {
+                border: none;
+                .form-group {
+                    .form-control {
+                        width: 28rem;
+                        opacity: .8;
+                        background-color: $color-tetriary;
+                        color: $color-primary;
+                        border-color: $color-accent2;
+                        &::placeholder {
+                            color: $color-primary;
+                        }
+                    }
+                    .input-group-addon {
+                        background-color: $color-accent;
+                        border-color: $color-accent2;
+                        color: $color-primary;
+                    }
+                }
+            }
+        }
+    }
+}

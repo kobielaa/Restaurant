@@ -1,0 +1,22 @@
+.user-menu {
+    background-color: $color-secondary;
+    position: sticky;
+    z-index: 9999;
+    .navbar {
+        display: inline-block;
+        .nav {
+            .nav-item {
+                .fa,
+                .nav-link {
+                    display: inline;
+                }
+            }
+            .dropdown-menu {
+                background-color: $color-secondary;
+            }
+        }
+    }
+    #languages-navbar {
+        float: right;
+    }
+}

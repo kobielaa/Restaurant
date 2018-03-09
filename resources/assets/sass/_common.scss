@@ -1,0 +1,30 @@
+body {
+    color: $color-primary;
+    font-size: .75rem;
+}
+
+a {
+    color: $color-primary;
+    &:hover {
+        color: $color-primary;
+    }
+}
+
+h1,
+h4 {
+    color: $color-accent;
+}
+
+.container {
+    .sidebar,
+    main {
+        color: $color-secondary;
+        a {
+            color: $color-secondary;
+            text-decoration: underline;
+            &:hover {
+                color: $color-secondary;
+            }
+        }
+    }
+}
